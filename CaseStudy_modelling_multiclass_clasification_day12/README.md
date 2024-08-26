@@ -15,19 +15,19 @@ This project focuses on the Iris dataset, performing data analysis, clustering, 
 - Setosa is well separated from the other two species based on petal and corolla features.
 
 ## Feature Engineering 
- 1.**Outlier Handling**: Addressing potential outliers in the dataset.
- 2.**Feature Scaling**: StandardScaler is applied to normalize features for better performance in clustering and classification models.
+ 1. **Outlier Handling**: Addressing potential outliers in the dataset.
+ 2. **Feature Scaling**: StandardScaler is applied to normalize features for better performance in clustering and classification models.
 
 ## Clustering using KMeans 
-**Elbow Method**: The optimal number of clusters is determined using the elbow method, which shows a clear separation between clusters.
-**Score Plot**: The score plot further validates the optimal clustering, which shows a better distribution of clusters compared to annotator labels.
-**Model Evaluation**: Both the elbow method and score plot show successful identification of data patterns with clear separation between clusters.
+1. **Elbow Method**: The optimal number of clusters is determined using the elbow method, which shows a clear separation between clusters.
+2. **Score Plot**: The score plot further validates the optimal clustering, which shows a better distribution of clusters compared to annotator labels.
+3. **Model Evaluation**: Both the elbow method and score plot show successful identification of data patterns with clear separation between clusters.
 
 ## Multiclass Classification 
 - Models Used: Logistic Regression, Naive Bayes, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Random Forest.
-**Training**: All features were used with the `cluster_elbow` column as the target variable for classification.
-**Evaluation**: The `species` column was used to compare annotator labels with the predicted results.
-**Results**: - All models performed well, with high accuracy on both training and testing data.
+1. **Training**: All features were used with the `cluster_elbow` column as the target variable for classification.
+2. **Evaluation**: The `species` column was used to compare annotator labels with the predicted results.
+3. **Results**: - All models performed well, with high accuracy on both training and testing data.
 - Logistic Regression was selected as the best model.
 
 ## Model Evaluation 
