@@ -7,16 +7,16 @@ This project focuses on the Iris dataset, performing data analysis, clustering, 
 5. Species = setosa, versicolor, virginica
 
 ## Exploratory Data Analysis (EDA) 
-**Visualization**: Several plots were created to explore the relationship between the features (petal length, petal width, petal length, and petal width) and the corresponding species (Setosa, Versicolor, Virginica).
-**Insights**: 
+1.**Visualization**: Several plots were created to explore the relationship between the features (petal length, petal width, petal length, and petal width) and the corresponding species (Setosa, Versicolor, Virginica).
+2.**Insights**: 
 - The Setosa species has a wider petal width and shorter petal length compared to the other species. 
 - The Versicolor species shows a slight increase in both petal length and width.
 - Virginica species has the longest and widest petals.
 - Setosa is well separated from the other two species based on petal and corolla features.
 
 ## Feature Engineering 
- **Outlier Handling**: Addressing potential outliers in the dataset.
- **Feature Scaling**: StandardScaler is applied to normalize features for better performance in clustering and classification models.
+ 1.**Outlier Handling**: Addressing potential outliers in the dataset.
+ 2.**Feature Scaling**: StandardScaler is applied to normalize features for better performance in clustering and classification models.
 
 ## Clustering using KMeans 
 **Elbow Method**: The optimal number of clusters is determined using the elbow method, which shows a clear separation between clusters.
