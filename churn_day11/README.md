@@ -1,7 +1,17 @@
-# Churn_Prediction
+## Customer Churn Prediction Project
 A machine learning project for predicting whether a customer will churn or not.
 
+The dataset contains information like personal details, transaction history, and bank information of customers. Predicting when customers might withdraw their money and become inactive is crucial for banks. By identifying potential churners, the bank can take necessary actions to retain customers and maintain loyalty.
 
-The dataset contains the information like personal information of the customer, transaction information, and bank information belonging to a bank. It is often necessary to predict when the customers are going to withdraw their money from the bank account and stay dormant. Being able to predict this, the bank can take necessary action to prevent customers from withdrawing huge sums and stay an active/loyal customer. Our task is to be able to predict the customers who are going to churn based on the information given.
+### Exploratory Data Analysis (EDA):
 
-flowchart : reading files into python --> variable identification & typecasting -->Univariate Analysis --> Bivariate analysis -->Data Cleaning -->Model Building -->Regularization.
+1. Categorical Columns: Analyzed churn distribution by categories such as gender, occupation, and customer network category using proportional aggregation.
+2. Numerical Columns: Visualized the relationship between churn and numerical variables such as current balance, previous month balances, and transaction history using boxplots.
+   
+### Feature Engineering:
+1. Extracted day, month, and day of the week from the last_transaction date column.
+2. Removed outliers using the 3-sigma rule for various numeric variables to improve model performance.
+
+### Model Building:
+1. The data was split into training and testing sets with an 80/20 ratio.
+2. Different machine learning models were tested, including Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, and Support Vector Machine (SVM).
