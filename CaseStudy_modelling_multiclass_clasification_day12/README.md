@@ -1,12 +1,10 @@
-In this project, I will explore a multiclass dataset using the Iris dataset. The dataset includes the following features, according to its official summary: 
+## Introduction 
+This project focuses on the Iris dataset, performing data analysis, clustering, and multiclass classification. The goal is to identify patterns in the data and use a machine learning model to classify iris species based on their features. The dataset includes the following features, according to its official summary: 
 1. Petal Length (cm)
 2. Petal Width (cm)
 3. Petal Length (cm)
 4. Petal Width (cm)
 5. Species = setosa, versicolor, virginica
-
-## Introduction 
-This project focuses on the Iris dataset, performing data analysis, clustering, and multiclass classification. The goal is to identify patterns in the data and use a machine learning model to classify iris species based on their features.
 
 ## Exploratory Data Analysis (EDA) 
 **Visualization**: Several plots were created to explore the relationship between the features (petal length, petal width, petal length, and petal width) and the corresponding species (Setosa, Versicolor, Virginica).
