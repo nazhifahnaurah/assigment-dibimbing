@@ -1,4 +1,9 @@
-In this project, I will explore a multiclass dataset using the Iris dataset. The dataset includes the following features, according to its official summary: 1. Petal Length (cm) 2. Petal Width (cm) 3. Petal Length (cm) 4. Petal Width (cm) 5. Species = setosa, versicolor, virginica
+In this project, I will explore a multiclass dataset using the Iris dataset. The dataset includes the following features, according to its official summary: 
+1. Petal Length (cm)
+2. Petal Width (cm)
+3. Petal Length (cm)
+4. Petal Width (cm)
+5. Species = setosa, versicolor, virginica
 
 ## Introduction 
 This project focuses on the Iris dataset, performing data analysis, clustering, and multiclass classification. The goal is to identify patterns in the data and use a machine learning model to classify iris species based on their features.
@@ -22,7 +27,6 @@ This project focuses on the Iris dataset, performing data analysis, clustering, 
 
 ## Multiclass Classification 
 - Models Used: Logistic Regression, Naive Bayes, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Random Forest.
-
 **Training**: All features were used with the `cluster_elbow` column as the target variable for classification.
 **Evaluation**: The `species` column was used to compare annotator labels with the predicted results.
 **Results**: - All models performed well, with high accuracy on both training and testing data.
