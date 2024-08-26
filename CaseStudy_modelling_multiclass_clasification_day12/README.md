@@ -24,11 +24,11 @@ This project focuses on the Iris dataset, performing data analysis, clustering, 
 3. **Model Evaluation**: Both the elbow method and score plot show successful identification of data patterns with clear separation between clusters.
 
 ## Multiclass Classification 
-- Models Used: Logistic Regression, Naive Bayes, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Random Forest.
+Models Used: Logistic Regression, Naive Bayes, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Random Forest.
 1. **Training**: All features were used with the `cluster_elbow` column as the target variable for classification.
 2. **Evaluation**: The `species` column was used to compare annotator labels with the predicted results.
 3. **Results**: - All models performed well, with high accuracy on both training and testing data.
-- Logistic Regression was selected as the best model.
+Logistic Regression was selected as the best model.
 
 ## Model Evaluation 
 Despite slight mixing in species labels, the machine learning models performed well in predicting the correct class. Logistic Regression proved to be a good model for multiclass classification.
