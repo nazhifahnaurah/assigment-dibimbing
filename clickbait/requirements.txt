@@ -1,9 +1,0 @@
-pandas
-numpy
-torch
-transformers
-wordcloud
-matplotlib
-keras
-scikit-learn
-
